@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header> 
-        <a className="text-3xl font-bold">Tait's Headless UI components</a>
+        <a className="text-3xl font-bold">Tait&apos;s Headless UI components</a>
       </header>
       <main className="flex flex-row flex-wrap gap-[32px] row-start-2 items-center sm:items-start">
         <ComponentPreview title="Contact Form" image="/component-previews/contact-form.png" href="/contact" />      
