@@ -5,10 +5,9 @@ import { Field, Label, Textarea } from '@headlessui/react'
 
 interface CodeAreaProps {
   code: string;
-  language?: string;
 }
 
-function CodeArea({code, language = "typescript"}: CodeAreaProps) {
+function CodeArea({code}: CodeAreaProps) {
   return (
 	<div>
 	  <Field>
