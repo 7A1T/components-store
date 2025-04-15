@@ -5,7 +5,7 @@ import { Button } from '@headlessui/react'
 import Link from 'next/link'
 import NavbarHeader from '@/app/components/navbar'
 
-function contactFormPage() {
+function ContactFormPage() {
   return (
     <div>
       <NavbarHeader>
@@ -22,4 +22,4 @@ function contactFormPage() {
   );
 }
 
-export default contactFormPage;
+export default ContactFormPage;

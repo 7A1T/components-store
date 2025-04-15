@@ -10,6 +10,7 @@ export default function Home() {
       </header>
       <main className="flex flex-row flex-wrap gap-[32px] row-start-2 items-center sm:items-start">
         <ComponentPreview title="Contact Form" image="/component-previews/contact-form.png" href="/contact" />      
+        <ComponentPreview title="Text Animation" image="/component-previews/text-animation.png" href="/text-animation" />      
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
