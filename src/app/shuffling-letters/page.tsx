@@ -15,10 +15,10 @@ function TextAnimationPage() {
           </Button>
         </Link>
       </NavbarHeader>
-      <div className="p-8 sm:p-20 grid place-items-center">
+      <div className="px-4 py-8 sm:p-20 grid place-items-center">
         <ComponentView
           component={
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <ShufflingLettersWord
                 finalText="TAIT"
                 alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
