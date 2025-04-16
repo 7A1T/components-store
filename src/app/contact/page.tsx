@@ -15,7 +15,7 @@ function ContactFormPage() {
           </Button>
         </Link>
       </NavbarHeader>
-      <div className="p-8 sm:p-20 grid place-items-center">
+      <div className="px-4 py-8 sm:p-20 grid place-items-center">
         <ComponentView component={<ContactForm />} />
       </div>
     </div>

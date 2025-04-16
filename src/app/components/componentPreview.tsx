@@ -10,8 +10,16 @@ function ComponentPreview({ title, image, href }: {
 }) {
   return (
     <Link href={href} className="block">
-      <Field className="gap-4 border border-white/20 rounded-lg p-6 hover:border-white/40 transition-colors">
-        <Image src={image} alt={title} width={300} height={300}/>
+      <Field className="gap-4 border border-white/20 rounded-lg p-6 hover:border-white/40 transition-colors w-[320px] h-[320px] flex flex-col items-center justify-between">
+        <div className="w-full h-[220px] flex items-center justify-center overflow-hidden">
+          <Image
+            src={image}
+            alt={title}
+            width={250}
+            height={250}
+            className="object-contain"
+          />
+        </div>
         <Label className="text-sm/6 font-bold text-white">
           {title}
         </Label>
